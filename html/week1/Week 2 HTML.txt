@@ -1,0 +1,89 @@
+
+Always start with
+ 
+<!DOCTYPE html>
+then
+<html>
+    
+</html>
+Everything goes inside this
+Then write
+<header>
+Inside goes title - you dont see this on the actual webpage
+    </header>
+    <body>
+        WHat is displayed on the actual page 
+		Use for example H1
+		There are 6 headers h1 - h6
+		
+		IMAge soucre is written like this: 
+		<img src="C:\Users\Jonas\Desktop\HYF\Randonlogo.jpg" width="200px" height="200px">
+    </body>
+
+	Other notes;
+	
+	Line breaks not needed with CSS
+	Button types should always be specified as there are three different types
+	1 button
+	2
+	3
+	
+	Any links are made using the a command
+	
+	Useful with a tag google search for " html link atrributes "
+	eg target _ blank (open in a new tag)
+	
+	lists ordered vs unordered lists
+	ul vs ol
+	
+	 <ul>
+ <li> item 1 </li>
+  <li>item 2 </li>
+   <li> item 3</li>
+    <li> item 4</li>
+     <li> item 5 </li>
+</ul>
+
+HTML List styles for unorderd lists w3 schoold
+DIscs and square etc bullets
+for ol different numbering styles 
+
+Semantic Elements
+
+A semantic element cleary describes describes its meaning to both the browser and the developer
+Examples of semantic elements <form> <table> and <article> clearly defines its content
+Semantic tags make it clear to the broswer what the meaning of a page and its content is
+The clarity is also communicated with search engines ensuring that the right pages are delivered for the right queries
+Examples of non semantic elemnts are <div> and <span> - tells nothing about its content 
+
+
+Predef html tags 
+
+header
+nav
+etc etc (google it)
+
+html
+TR elements define table structire
+
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
+<table border="1" style="width:100%">
+
+	

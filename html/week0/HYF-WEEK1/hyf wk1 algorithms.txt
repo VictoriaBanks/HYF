@@ -1,0 +1,163 @@
+Alfo
+finite set of steps to solv any problem
+cannot be an indefinite loop, loops are allowed
+
+Requirements:
+has set of inputs
+finite no of steps
+well defied instruction sets - each step is unique
+effective - in correct direction
+
+ALGORHITHM DEV PROCESS
+
+1 obtain a description of promblem
+2 analyse the problem
+3 develop a high level algo
+4 refine the algo by adding more detail
+5 review the algo
+
+PRACTICE - ALGO CALL A FREND ON THE PHONE
+
+Consider:
+If phone is busy
+If there is no answer
+If no voicemail
+
+Steps
+
+1) Dial friend's number
+2) If friend does not answer AND Voicemail exists THEN leave voicemail, else hang up.  WAIT 5 minutes then go to step 1).
+3) If number is busy 
+4)
+5)
+
+ONE possible solution:
+
+1) Pick up the phone
+2) Press each digit of the phone number on the phone
+3) If busy hang up wait 5 mins try again
+4) If no answer leave a message then hang up (friend will then call back)
+5) IF no ans machine hang up wait 2 hours then jump to step 2
+6) Talk to friend
+7) Hang up phone
+
+
+ALGO IN COMPUTER WORLD
+
+A computer program consist fo logival rules which it follows.  These are ago
+Algo define how EXACTLY to operate to solve a problem
+COmputer programs are only a bunch of algo slapped togther with a bunch of structured data
+Algo plus data structure = Programs
+
+WHY AN ALGORHITHM
+
+Enables analysis of problem at hand
+Acts as a blueprint for coding
+Promotes effective communication between team members
+assists in debugging
+Becomes part of software documentation for future reference during maintenance phase.
+
+HOW TO WRITE AN ALGO
+
+Can be written in one of two forms
+
+1) Plain set of step by step instructions
+2) Flowchart
+3) Pseudocode -
+
+1) step by step instructions
+
+An algo to check whether a nunber is postive or negative
+
+1 take the number
+2 read the number
+3 if (number == 0) print "You entered 0" 
+4 if (number is >0) print "You entered a positivenegative number" 
+5 if (number is <0) print "You entered a negative number" 
+
+TEST
+
+Three numbers a b c and decide which one is bigger
+
+1) Take a, b and c
+2) Read a, b and c
+3) If a is > b AND a is > c Then Print "a is the biggest number
+4) If b is > a AND b is > c Then Print "b is the biggest number
+5) If c is > b AND c is > a Then Print "c is the biggest number
+6) IF a == b and a = c Then Print "All numbers are equal"
+7) IF a == b BUT a =/= c AND a > c then Print " a nd b are equal and the biggest number" Else print "c is the biggest number"
+8) IF a == c BUT a =/= b AND a > b then Print " a nd c are equal and the biggest number" Else print "b is the biggest number"
+9) IF c == b BUT a =/= c AND c > a then Print " c nd b are equal and the biggest number" Else print "a is the biggest number"
+10) END
+
+START (Assuming that the numbers are all different)
+
+1) Read abc
+2) If a>b then go to 3 else 4
+3) If a>c then max = a else max = c go to 6
+4) If b>c then max b else max = c go to 6
+5) Write max
+6) Stop
+
+2) FLOWCHART
+
+A FC is a diagrammatic represenatation of an algo
+FC use simple geometric shapes to depict processes and arrows to show relationships and data flow
+Benefis
+Simplicity  - v readable and easy to understand
+Better communications and effectve analysis (computer knowledge note required)
+Proper testing
+Proper documentation
+
+SYMBOLS
+
+START/STOP Oval
+PROCESS REctangle
+INPUT/OUTPUT Slanted rectangle
+Decision Diamond
+Arrow
+
+Eg for FC Postove and Negatic Algo
+
+Oval - Start 
+Arrow
+Slanted Read N 
+Arrow with f next to it
+Diamond "Is n > 0" arrow to T slant "Print N is postive" arrow to just above STOP
+Arrow with F next to it
+Diamond "If n < 0" arrow to T "Print is negative" arrow to just above STOP
+Arrow with F next to it
+Print N is 0
+Arrow to Stop
+STOP
+
+3 PSEUDOCODE
+
+PSC is an artificial and informal lang that helps programmers dev algo
+PC is writtne more close to programming lag
+It contains motr prog details than structured english
+It provide medthod to perform thr task as if th ecomputer is executing the  code
+Manny prog pand des pref this way to state algo and prog specs
+
+EG
+Pseudo code for the algo to see if a number is positive or negative
+
+Function numCHeck
+Get value of n,
+If(n==0)
+    	Print "The number is zero"
+Else if (n>0)
+	Print "The number is positive"
+Else if (n<0)
+	Print "The number is negative"
+
+
+
+
+
+
+
+
+
+
+

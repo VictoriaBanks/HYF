@@ -1,0 +1,14 @@
+HTML CSS HYF Wk "
+
+LINK THE STLYE SHEETS IN THE HEAER
+
+
+<link rel="stylesheet" type="test/css" href="HYF Wk2.CSS" />
+
+Class
+.gycgc
+
+Vs 
+
+ID
+#cvccv
